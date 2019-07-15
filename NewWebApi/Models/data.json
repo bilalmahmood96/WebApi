@@ -1,0 +1,55 @@
+[
+   {
+      "ID":"ITM001",
+      "Name":"LAYS",
+      "Categories":[
+         "Edible",
+         "Chips"
+      ],
+      "Quantity":200,
+      "UnitPrice":20,
+      "RetailPrice":22,
+      "LastUpdateDate":"",
+      "LastUpdatedBy":""
+   },
+   {
+      "ID":"ITM002",
+      "Name":"MAGGI",
+      "Categories":[
+         "Edible",
+         "Noodles"
+      ],
+      "Quantity":200,
+      "UnitPrice":30,
+      "RetailPrice":40,
+      "LastUpdateDate":"",
+      "LastUpdatedBy":""
+   },
+   {
+      "ID":"ITM003",
+      "Name":"HOCKEY MATCHES",
+      "Categories":[
+         "Matchsticks",
+         "Flamable"
+      ],
+      "Quantity":200,
+      "UnitPrice":10,
+      "RetailPrice":11,
+      "LastUpdateDate":"",
+      "LastUpdatedBy":""
+   },
+   {
+      "ID":"ITM004",
+      "Name":"NESTLE NIDO",
+      "Categories":[
+         "Milk",
+         "Powder",
+         "Edible"
+      ],
+      "Quantity":200,
+      "UnitPrice":950,
+      "RetailPrice":1000,
+      "LastUpdateDate":"",
+      "LastUpdatedBy":""
+   }
+]
