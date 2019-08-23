@@ -1,0 +1,30 @@
+[
+   {
+      "categoryID":1,
+      "categoryName":"Edible"
+   },
+   {
+      "categoryID":2,
+      "categoryName":"Chips"
+   },
+   {
+      "categoryID":3,
+      "categoryName":"halal"
+   },
+   {
+      "categoryID":4,
+      "categoryName":"haram"
+   },
+   {
+      "categoryID":5,
+      "categoryName":"drinks"
+   },
+   {
+      "categoryID":6,
+      "categoryName":"Nonvege"
+   },
+   {
+      "categoryID":7,
+      "categoryName":"Vegatable"
+   }
+]

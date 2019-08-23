@@ -4,6 +4,7 @@ using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+using System.Net.Http.Formatting;
 using System.Web;
 using System.Web.Http;
 using System.Web.Mvc;
@@ -27,7 +28,12 @@ namespace NewWebApi
                 // Read entire text file content in one string  
                 string text = File.ReadAllText(textFile);
                 DB.myDB = JsonConvert.DeserializeObject<List<dataclass>>(text);
-                //Console.WriteLine(text);
+            }
+            string textFile1 = Server.MapPath("/Models/Categorydata.json");
+            if (File.Exists(textFile1))
+            {
+                string text1 = File.ReadAllText(textFile1);
+                Cat.Catdata = JsonConvert.DeserializeObject<List<Category>>(text1);
             }
         }
     }

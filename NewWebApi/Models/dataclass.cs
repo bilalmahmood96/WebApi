@@ -9,7 +9,7 @@ namespace NewWebApi.Models
     {
         public string ID { get; set; }
         public string Name { get; set; }
-        public List<string> Categories { get; set; }
+        public string Categories { get; set; }
         public int Quantity { get; set; }
         public int UnitPrice { get; set; }
         public int RetailPrice { get; set; }
